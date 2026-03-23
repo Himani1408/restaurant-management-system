@@ -1,69 +1,99 @@
-# RESTAURANT MANAGEMENT SYSTEM
+# 🍽️ Restaurant Management System
 
-## About the Project
+A web-based Restaurant Management System developed using **PHP and MySQL** that helps manage restaurant operations such as menu handling, order processing, and user management. This system provides an easy-to-use interface for both customers and administrators.
 
-This project is about ordering online food from your favourite restaurants. Anybody can create an account and order online. You are free to to use this project for college or school purposes. Please note that this project is not made for business or commercial purposes.
+---
 
+## 🚀 Features
 
-## Screenshots
+* 👤 User registration and login
+* 📋 Browse menu items
+* 🛒 Place and manage orders
+* 🧑‍💼 Admin dashboard
+* 🗂️ Manage categories, menus, and restaurants
+* 📊 View and track orders
 
-<p align="center">
-    <b>Main Page</b>
-</p>
+---
 
-<img src="SS/Screenshot (8).png" alt="Main">
+## 🛠️ Tech Stack
 
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** PHP
+* **Database:** MySQL
+* **Server:** XAMPP / WAMP
 
-<p align="center">
-    <b>Login Page</b>
-</p>
+---
 
-<img src="SS/Screenshot (2).png" alt="Main">
+## 📂 Project Structure
 
+```
+restaurant-management-system/
+│── admin/
+│── includes/
+│── database/
+│── css/
+│── js/
+│── images/
+│── index.php
+```
 
-<p align="center">
-    <b>Register Page</b>
-</p>
+---
 
-<img src="SS/Screenshot (3).png" alt="Main">
+## ⚙️ Installation & Setup
 
+### 1. Clone the repository
 
-<p align="center">
-    <b>Dishes Page</b>
-</p>
+```
+git clone https://github.com/your-username/restaurant-management-system.git
+```
 
-<img src="SS/Screenshot (4).png" alt="Main">
+### 2. Move to XAMPP folder
 
+Copy project to:
 
-<p align="center">
-    <b>Admin Home Page</b>
-</p>
+```
+C:\xampp\htdocs\
+```
 
-<img src="SS/Screenshot (5).png" alt="Main">
+### 3. Start server
 
+* Open XAMPP
+* Start **Apache** and **MySQL**
 
-## Installation
+### 4. Setup Database
 
-In XAMPP, just create new database in phpmyadmin and import SQL file which is located in `SQL/` directory.
+* Open: http://localhost/phpmyadmin
+* Create a new database
+* Import the `.sql` file from the project
 
-## Admin Page
+### 5. Run the project
 
-To access admin portal, type this in URL `root/admin/ ` where root is your root directory
+Open browser and go to:
 
-Admin credentials: Username: admin Password: admin123
+```
+http://localhost/restaurant-management-system
+```
 
-## Technologies Used
+---
 
-1. PHP
-2. SQL
-3. BOOTSTRAP 4
-4. AJAX
-5. JQUERY
+## 👨‍💻 Team Members
 
-## System Requirements
+* Member 1
+* Member 2
+* Member 3
 
-Software : XAMPP 
+---
 
-## Demo
+## 📌 Future Improvements
 
-Try the application: https://restaurantshub.000webhostapp.com/
+* Online payment integration
+* Mobile responsiveness improvements
+* Advanced analytics dashboard
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes.
+
+---
