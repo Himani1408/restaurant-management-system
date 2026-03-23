@@ -74,15 +74,6 @@ Open browser and go to:
 http://localhost/restaurant-management-system
 ```
 
----
-
-## 👨‍💻 Team Members
-
-* Member 1
-* Member 2
-* Member 3
-
----
 
 ## 📌 Future Improvements
 
